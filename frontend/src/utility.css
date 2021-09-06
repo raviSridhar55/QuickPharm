@@ -1,0 +1,113 @@
+:root {
+  --background-color: #161439;
+  --primary-color: #6c38dc;
+  --white: #f2f2f2;
+  --success-color: #29ffc9;
+  --danger-color: #fc5463;
+  --ham-background: #5026a8;
+  --primary-font: 'Catamaran', sans-serif;
+  --secondary-font: 'Lexend', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--white);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-clip: content-box;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1300px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+.p-2 {
+  padding: 20px;
+}
+.p-3 {
+  padding: 30px;
+}
+
+.m-1 {
+  margin: 10px;
+}
+
+.m-1 {
+  margin: 20px;
+}
+
+.m-1 {
+  margin: 30px;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: var(--secondary-font);
+}
+
+.btn {
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 2.5px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--secondary-font);
+}
+
+.btn-border {
+  background-color: #3219658a;
+  border: var(--primary-color) 2.5px solid;
+  color: var(--white);
+}
+
+.btn-solid {
+  background-color: var(--primary-color);
+  border: var(--primary-color) 2.5px solid;
+  color: var(--white);
+}
+
+.btn-find {
+  background-color: var(--background-color);
+  color: var(--white);
+  box-shadow: 0 0 5px var(--background-color);
+}
+
+.title-underline {
+  position: absolute;
+  height: 5px;
+  width: 60px;
+  background-color: var(--primary-color);
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}

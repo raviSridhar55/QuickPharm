@@ -1,0 +1,143 @@
+body {
+  background-color: var(--background-color);
+  font-family: var(--primary-font);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+/* Landing */
+.landing {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.landing .landing-vector {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-15%, -50%);
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.landing-main {
+  height: 100%;
+  width: 60%;
+  background-color: #3219658a;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+  z-index: -100;
+}
+
+.landing-main * {
+  z-index: 1;
+}
+
+.landing-details {
+  height: 80%;
+  width: 80%;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.landing-desc {
+  height: 150px;
+  width: 80%;
+}
+
+.landing-search {
+  height: 100px;
+  width: 80%;
+  margin-bottom: 50px;
+
+  display: flex;
+  align-items: center;
+}
+
+.pharmacy-search {
+  width: 100%;
+  height: 70px;
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pincode-search {
+  height: 100%;
+  width: 75%;
+  background-color: var(--white);
+  border: none;
+  font-size: 1.3rem;
+  padding-left: 5px;
+}
+
+.typeface {
+  height: 100px;
+}
+
+.landing-auth-buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 70px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ribbon {
+  height: 100%;
+  width: 50px;
+  background-color: var(--primary-color);
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.landing-showcase {
+  height: 400px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.showcase-1,
+.showcase-2,
+.showcase-3 {
+  height: 300px;
+  width: 300px;
+  /* background-color: var(--background-color);
+  border-radius: 10px;
+  box-shadow: 0 0 20px black; */
+  border-radius: 50px;
+  background: linear-gradient(315deg, #141233, #18153d);
+  box-shadow: -20px -20px 60px #0d0c21, 20px 20px 60px #1f1c51;
+}
+.title {
+  height: 50px;
+  margin-top: 50px;
+  position: relative;
+
+  z-index: -1;
+}
+.title h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
