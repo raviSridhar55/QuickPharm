@@ -5,8 +5,8 @@
   --success-color: #29ffc9;
   --danger-color: #fc5463;
   --ham-background: #5026a8;
-  --primary-font: 'Catamaran', sans-serif;
-  --secondary-font: 'Lexend', sans-serif;
+  --primary-font: "Catamaran", sans-serif;
+  --secondary-font: "Lexend", sans-serif;
 }
 
 * {
@@ -81,6 +81,17 @@
   text-transform: capitalize;
   font-weight: 500;
   font-family: var(--secondary-font);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn-find:hover {
+  opacity: 0.9;
+}
+
+.btn-border:hover,
+.btn-solid:hover {
+  box-shadow: 0px 0px 15px var(--primary-color);
 }
 
 .btn-border {
