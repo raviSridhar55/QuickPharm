@@ -79,6 +79,13 @@ body {
   padding-left: 5px;
 }
 
+.pincode-search:focus {
+  border: 2.5px solid var(--primary-color);
+}
+.pincode-search:active {
+  border: 2.5px solid var(--primary-color);
+}
+
 .typeface {
   height: 100px;
 }

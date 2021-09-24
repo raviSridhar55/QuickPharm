@@ -1,15 +1,15 @@
-import React from 'react';
-import pharamacyVector from '../../Assets/vectors/Pharmacist-amico.svg';
-import typeface from '../../Assets/logos/typeface.png';
+import React from "react";
+import pharmacyVector from "../../Assets/vectors/Pharmacist-amico.svg";
+import typeface from "../../Assets/logos/typeface.png";
 
 const Landing = () => {
   return (
     <>
       <section className='landing '>
         <img
-          src={pharamacyVector}
+          src={pharmacyVector}
           className='landing-vector'
-          alt='pharamacy-Vector'
+          alt='pharmacy-Vector'
         />
         <aside className='landing-main'>
           <div className='landing-details'>
