@@ -5,7 +5,7 @@ import typeface from "../../Assets/logos/typeface.png";
 const Landing = () => {
   return (
     <>
-      <section className='landing '>
+      <section nclassName='landing '>
         <img
           src={pharmacyVector}
           className='landing-vector'
