@@ -1,11 +1,11 @@
-import React from "react";
-import pharmacyVector from "../../Assets/vectors/Pharmacist-amico.svg";
-import typeface from "../../Assets/logos/typeface.png";
+import React from 'react';
+import pharmacyVector from '../../Assets/vectors/Pharmacist-amico.svg';
+import typeface from '../../Assets/logos/typeface.png';
 
 const Landing = () => {
   return (
     <>
-      <section nclassName='landing '>
+      <section className='landing '>
         <img
           src={pharmacyVector}
           className='landing-vector'

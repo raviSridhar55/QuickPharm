@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://Ravi:medibond@cluster0.nqtcx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
